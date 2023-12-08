@@ -10,7 +10,8 @@
     padding: 70px 10px;
     font-family: 'Inter', sans-serif;
 }
-a{
+
+footer a {
     color: white;
     text-decoration: none;
 }
