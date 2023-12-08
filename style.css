@@ -2,6 +2,10 @@
 
 body {
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 .footer {
@@ -14,7 +18,7 @@ body {
     padding: 70px 10px;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
 }
@@ -27,12 +31,17 @@ nav {
     justify-content: space-between;
     padding: 30px 40px;
     font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .nav-links {
     display: flex;
     flex-flow: row nowrap;
+    align-items: center;
     column-gap: 30px;
+    margin-right: 70px;
 }
 
 .nav-links a {
@@ -42,5 +51,5 @@ nav {
 
 .nav-links a:hover {
     color: #BE4EE5;
-    transition: 0.3s;
+    transition: all 0.3s;
 }
