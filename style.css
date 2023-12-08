@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Quicksand:wght@300;400&display=swap');
+
+.footer {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 70px 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
