@@ -36,6 +36,11 @@ nav {
     z-index: 100;
 }
 
+.site-logo {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-links {
     display: flex;
     flex-flow: row nowrap;
