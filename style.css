@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: rgba(0, 0, 0, .9);
 }
 
 .footer {
@@ -57,4 +58,33 @@ nav {
 .nav-links a:hover {
     color: #BE4EE5;
     transition: all 0.3s;
+}
+
+.name{
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.aboutMe{
+    color: #fff;
+    max-width: 530px;
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.jobDescription{
+    color: rgba(255, 255, 255, .7);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.bio{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 400px) {
+    .aboutMe{
+        margin: 200 0 0 250;
+    }
 }
