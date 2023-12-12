@@ -9,6 +9,21 @@ body {
     background-color: rgba(0, 0, 0, .9);
 }
 
+.footer {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 70px 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     background-color: #000000;
     color: white;
@@ -64,7 +79,10 @@ nav {
     max-width: 530px;
     padding-left: 200px;
     padding-top: 250px;
+    margin-left: 300px;
+    margin-top: 300px;
 }
+
 .jobDescription{
     color: rgba(255, 255, 255, .7);
     font-size: 18px;
@@ -76,20 +94,6 @@ nav {
     font-size: 18px;
 }
 
-.footer {
-    display: flex;
-    background-color: #000000;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    color: white;
-    padding: 70px 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
 
 @media only screen and (max-width: 500px) {
     .bio, .jobDescription {
@@ -102,5 +106,6 @@ footer a {
 
     .aboutMe{
         padding: 80;
+        margin: 200 0 0 250;
     }
   }
