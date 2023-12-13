@@ -35,6 +35,15 @@ nav {
     margin-right: 70px;
 }
 
+.nav-links ul{
+    list-style-type: none;
+    margin-top: 0px;
+}
+.nav-links li{
+    display: inline;
+    padding: 0 0 0 10;
+}
+
 .nav-links a {
     text-decoration: none;
     color: white;
