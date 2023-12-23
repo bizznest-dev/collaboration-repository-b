@@ -9,6 +9,21 @@ body {
     background-color: rgba(0, 0, 0, .9);
 }
 
+.footer {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    padding: 70px 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 nav {
     background-color: #000000;
     color: white;
@@ -35,6 +50,15 @@ nav {
     margin-right: 70px;
 }
 
+.nav-links ul{
+    list-style-type: none;
+    margin-top: 0px;
+}
+.nav-links li{
+    display: inline;
+    padding: 0 25 0 0;
+}
+
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -56,6 +80,7 @@ nav {
     padding-left: 200px;
     padding-top: 250px;
 }
+
 .jobDescription{
     color: rgba(255, 255, 255, .7);
     font-size: 18px;
@@ -67,21 +92,6 @@ nav {
     font-size: 18px;
 }
 
-.footer {
-    display: flex;
-    background-color: #000000;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    color: white;
-    padding: 70px 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
 @media only screen and (max-width: 500px) {
     .bio, .jobDescription {
         font-size: 15px;
@@ -90,8 +100,10 @@ footer a {
     .name{
         font-size: 25px;
     }
-
     .aboutMe{
-        padding: 80;
+        padding: 180 50;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
