@@ -56,7 +56,7 @@ nav {
 }
 .nav-links li{
     display: inline;
-    padding: 0 0 0 10;
+    padding: 0 25 0 0;
 }
 
 .nav-links a {
@@ -79,8 +79,6 @@ nav {
     max-width: 530px;
     padding-left: 200px;
     padding-top: 250px;
-    margin-left: 300px;
-    margin-top: 300px;
 }
 
 .jobDescription{
@@ -94,7 +92,6 @@ nav {
     font-size: 18px;
 }
 
-
 @media only screen and (max-width: 500px) {
     .bio, .jobDescription {
         font-size: 15px;
@@ -103,9 +100,10 @@ nav {
     .name{
         font-size: 25px;
     }
-
     .aboutMe{
-        padding: 80;
-        margin: 200 0 0 250;
+        padding: 180 50;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
   }
